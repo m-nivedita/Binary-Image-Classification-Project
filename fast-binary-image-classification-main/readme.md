@@ -87,10 +87,3 @@ model.classifier = nn.Sequential(
 ReLU: Adds non-linearity, helping the model learn complex patterns.  
 Dropout (60%): Minimizes overfitting during neural network training.  
 Sigmoid: Ensures output values are between 0 and 1, perfect for engineering binary classification.  
-
-## Motivation
-
-This project is intended as a review of machine learning and AI concepts, while expanding on my software engineering skills in web app deployment that I have developed since I received my masters in Engineering from Ohio State University. 
-
-Next, I intend to use transfer learning and the softmax for a multi-class classification neural network and integrate additional functionality into the deployed machine learning model and user interface.
-
