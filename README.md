@@ -1,11 +1,11 @@
 
 # Real Time Image Classifier: Thumbs up vs down
 
-Written in pure python, this repository was used to [train](https://github.com/BrianLesko/fast-binary-image-classification/blob/main/train.py) and [deploy](https://github.com/BrianLesko/fast-binary-image-classification/blob/main/deploy.py) a binary image classifier engineered to distinguish between "thumbs up" and "thumbs down" hand gestures.
+Written in pure python, this repository was used to train and deploy a binary image classifier engineered to distinguish between "thumbs up" and "thumbs down" hand gestures.
 
-Achieving 95% accuracy on the test set of 2,500 images, training completed in just over 26 minutes. The project includes three main Python scripts: train.py, simple_test.py, and test.py. In total, less than 300 lines of code.
+Achieving 95% accuracy on the test set of 2,500 images, training completed. The project includes three main Python scripts: train.py, simple_test.py, and test.py. In total, less than 300 lines of code.
 
-Leveraging the VGG16 convolutional neural network with pretrained weights, the model boasts rapid training capabilities, suited for deployment on personal computers for custom use cases. This model debuted in [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556) in 2014. Newer models are more compute efficient; therefor, this repository is not suited to large scale deployment and is better used as a learning resourse or local deployment - where it is capable of competent accuracy (95% test accuracy in this demonstration) at the tradeoff of inflated compute cost. 
+Leveraging the VGG16 convolutional neural network with pretrained weights, the model boasts rapid training capabilities, suited for deployment on personal computers for custom use cases. Newer models are more compute efficient; therefor, this repository is not suited to large scale deployment and is better used as a learning resourse or local deployment - where it is capable of competent accuracy (95% test accuracy in this demonstration) at the tradeoff of inflated compute cost. 
 
 &nbsp;
 
@@ -15,17 +15,15 @@ Leveraging the VGG16 convolutional neural network with pretrained weights, the m
 
 ## Training Summary
 
-The model was engineered using a dataset of 2,500 images divided into two categories: "like" and "dislike". The training was executed over seven epochs and took 26.15 minutes, achieving a final test accuracy of 95.28%. The accuracy increased logarithmically, while the loss decreased from 0.7721 to 0.1551 across epochs. 
+The model was engineered using a dataset of 2,500 images divided into two categories: "like" and "dislike". The training was executed over seven epochs, achieving a final test accuracy of 95.28%. The accuracy increased logarithmically, while the loss decreased from 0.7721 to 0.1551 across epochs. 
 
 This dataset was sourced from the "like" and "dislike" classes of the Hagrid hand gesture dataset. Model weights are stored in model.pth. You can also use the flickr api to download images from the web for any given category. 
-
-If you plan to train your own model, ensure to download and organize your dataset similarly.
 
 The model weights for the thumbs up and down implementation are saved in model.pth.
 
 ## Dataset useage
 
-The classifier was trained to recognize hand gestures performed between 0.5 and 4 meters from the camera. The dataset, consisting of 2,500 images, was sampled from the "like" and "dislike" classes of the [Hagrid Dataset](https://github.com/hukenovs/hagrid).
+The classifier was trained to recognize hand gestures performed between 0.5 and 4 meters from the camera. The dataset, consisting of 2,500 images, was sampled from the "like" and "dislike" classes of the Hagrid Dataset
 
 <div align="center"><img src="dataset.jpeg" width="800" alt="Sample images from the all classes of the Hagrid Dataset used for training the neural network classification model"></div>
 
