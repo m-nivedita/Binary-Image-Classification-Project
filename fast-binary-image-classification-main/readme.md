@@ -94,24 +94,3 @@ This project is intended as a review of machine learning and AI concepts, while 
 
 Next, I intend to use transfer learning and the softmax for a multi-class classification neural network and integrate additional functionality into the deployed machine learning model and user interface.
 
-If you find this project useful, please consider giving it a :star:
-
-&nbsp;
-
-<hr>
-
-&nbsp;
-
-<div align="center">
-
-
-&nbsp;
-
-
-<a href="https://x.com/TheBrianLesko/status/1124018912268554240"><img src="https://raw.githubusercontent.com/BrianLesko/BrianLesko/main/.socials/svg-grey/x.svg" width="30" alt="X Logo"></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://github.com/BrianLesko"><img src="https://raw.githubusercontent.com/BrianLesko/BrianLesko/main/.socials/svg-grey/github.svg" width="30" alt="GitHub"></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://www.linkedin.com/in/brianlesko/"><img src="https://raw.githubusercontent.com/BrianLesko/BrianLesko/main/.socials/svg-grey/linkedin.svg" width="30" alt="LinkedIn"></a>
-
-
-</div>
-
-
-&nbsp;
